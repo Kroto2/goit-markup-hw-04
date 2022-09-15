@@ -89,7 +89,8 @@ ul {
     justify-content: center;
     flex-direction: row;
     gap: 30px;
-    padding: 94px 0 0 0;
+    padding: 0;
+    margin: 0;
 }
 .little-header{
     font-weight: 700;
@@ -101,7 +102,7 @@ ul {
 }
 .team-container-background{
     background-color: var(--background-white);
-    padding: 94px 0;  
+    padding:0;  
 }
 .team-container{
     width:100%;
@@ -245,5 +246,5 @@ ul {
     color: var(--footer-link)
 }
 .section{
-    padding: 94px 0 94px 0;
+    margin: 94px 0 94px 0;
 }
