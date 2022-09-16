@@ -8,6 +8,7 @@
     --background-white:#F5F4FA ; /* button background */
     --main-background-white:#E5E5E5 ;
     --footer-link:rgba(255, 255, 255, 0.6);
+    --icon-fill:#AFB1B8;
 }
 
 body {
@@ -47,11 +48,14 @@ ul {
     text-decoration:none;
     line-height: 1.172;
 }
-.contact:hover, .contact:focus {
+.contact:hover,.contact:focus {
     color:var(--blue)
 }
-.email-icon,.smartphone-icon{
+.contact-icon{
     margin-right: 10px;
+}
+.contact-icon:hover,.contact-icon:focus{
+    fill: var(--blue);
 }
 .main-background-container{
         text-align: center;
@@ -144,6 +148,18 @@ ul {
     line-height: 1.1875;
     font-size: 16px;
     margin:0 0 30px 0;
+}
+.team-icons{
+    gap: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.team-icon{
+    width: 44px;
+    height: 44px;
+    background-color: var(--white);
+    border-radius: 50%;
+    fill: var(--icon-fill);
 }
 .name-header{
     font-weight: 500;
