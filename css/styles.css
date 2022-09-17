@@ -168,6 +168,9 @@ ul {
     border-radius: 50%;
     fill: var(--icon-fill);
 }
+.team-icon:hover,.team-icon:focus{
+    fill: var(--blue);
+}
 .name-header{
     font-weight: 500;
     font-size:16px ;
