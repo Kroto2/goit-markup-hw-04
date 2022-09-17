@@ -10,6 +10,7 @@
     --footer-link:rgba(255, 255, 255, 0.6);
     --icon-fill:#AFB1B8;
     --footer-icon:rgba(255, 255, 255, 0.1);
+    --icon-border:#AFB1B8;
 }
 
 body {
@@ -249,6 +250,10 @@ ul {
     margin:0;
 }
 .clients-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
 
 }
 .clients-header{
@@ -260,7 +265,19 @@ ul {
     color: var(--header-black);
 }
 .clients-icons{
-
+    display: flex;
+    gap: 30px;
+}
+.clients-icon{
+    border-radius: 4px;
+    border: var(--icon-border) solid 1px;
+    width: 170px;
+    height: 92px;
+    fill: var(--icon-fill);
+}
+.client-icon:hover,.client-icon:focus{
+    fill: var(--blue);
+    border: var(--blue) solid 1px;
 }
 .footer-container{
     width:100%;
