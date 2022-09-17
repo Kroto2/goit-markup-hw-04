@@ -50,14 +50,12 @@ ul {
     text-decoration:none;
     line-height: 1.172;
 }
-.contact:hover,.contact:focus {
-    color:var(--blue)
+.contact:hover,.contact:focus, .contact-icon:hover,.contact-icon:focus {
+    color:var(--blue);
+    fill:var(--blue)
 }
 .contact-icon{
     margin-right: 10px;
-}
-.contact-icon:hover,.contact-icon:focus{
-    fill: var(--blue);
 }
 .main-background-container{
         text-align: center;
