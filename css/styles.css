@@ -168,9 +168,11 @@ ul {
     background-color: var(--white);
     border-radius: 50%;
     fill: var(--icon-fill);
+    justify-content: center;
 }
 .team-icon:hover,.team-icon:focus{
     fill: var(--blue);
+    cursor: pointer;
 }
 .name-header{
     font-weight: 500;
@@ -282,6 +284,7 @@ ul {
 .client-icon:hover,.client-icon:focus{
     fill: var(--blue);
     border: var(--blue) solid 1px;
+    cursor: pointer;
 }
 .footer-container{
     width:100%;
@@ -346,6 +349,7 @@ ul {
 }
 .footer-icon:hover,.footer-icon:focus{
     background-color: var(--blue);
+    cursor: pointer;
 }
 .section{
     margin: 94px 0 94px 0;
