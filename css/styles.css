@@ -281,7 +281,7 @@ ul {
     height: 92px;
     fill: var(--icon-fill);
 }
-.client-icon:hover,.client-icon:focus{
+.clients-icon:hover,.clients-icon:focus{
     fill: var(--blue);
     border: var(--blue) solid 1px;
     cursor: pointer;
@@ -350,6 +350,7 @@ ul {
 .footer-icon:hover,.footer-icon:focus{
     background-color: var(--blue);
     cursor: pointer;
+    caret-color: var(--black);
 }
 .section{
     margin: 94px 0 94px 0;
