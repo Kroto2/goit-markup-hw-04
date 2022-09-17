@@ -287,6 +287,12 @@ ul {
     text-decoration-line: underline;
     color: var(--footer-link)
 }
+.footer-icons-container{
+    display: flex;
+}
+.footer-icon{
+    fill: var(--white);
+}
 .section{
     margin: 94px 0 94px 0;
 }
