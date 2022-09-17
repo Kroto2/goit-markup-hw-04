@@ -171,8 +171,9 @@ ul {
     justify-content: center;
 }
 .team-icon:hover,.team-icon:focus{
-    fill: var(--blue);
+    fill: var(--white);
     cursor: pointer;
+    background-color: var(--blue);
 }
 .name-header{
     font-weight: 500;
@@ -284,10 +285,13 @@ ul {
     height: 92px;
     fill: var(--icon-fill);
 }
-.clients-icon:hover,.clients-icon:focus{
+.clients-icon:hover,.clients-icon:focus {
     fill: var(--blue);
     border: var(--blue) solid 1px;
     cursor: pointer;
+}
+.clients-icon:hover path,.clients-icon:focus path{
+    fill: var(--blue);
 }
 .footer-container{
     width:100%;
