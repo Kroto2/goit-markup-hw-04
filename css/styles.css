@@ -9,6 +9,7 @@
     --main-background-white:#E5E5E5 ;
     --footer-link:rgba(255, 255, 255, 0.6);
     --icon-fill:#AFB1B8;
+    --footer-icon:rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -265,10 +266,16 @@ ul {
     width:100%;
     background-color:var(--background-grey);
     padding: 60px 0;
+    display: flex;
 }
 .footer-container-list{
+    display:flex;
     flex-direction: column;
     color: var(--white);
+    flex-direction: row;
+}
+.footer-adress-contaier{
+    width:246px;
 }
 .footer-logo{
     color:var(--white)
@@ -278,7 +285,7 @@ ul {
 }
 .footer-contacts{
     padding:0;
-    color: var(--footer-link)
+    color: var(--footer-link);
 }
 .footer-contacts li {
     margin: 9px 0 9px 0;
@@ -289,9 +296,32 @@ ul {
 }
 .footer-icons-container{
     display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+.footer-icons-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.footer-icons-list{
+    display: flex;
+    gap: 10px;
+    margin-left: 70px;
+    padding: 0;
+    margin-top: 0;
 }
 .footer-icon{
     fill: var(--white);
+    background-color: var(--footer-icon);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
 }
 .section{
     margin: 94px 0 94px 0;
